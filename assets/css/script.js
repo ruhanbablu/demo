@@ -10,7 +10,7 @@ sr.reveal(`.header-content, .service-header, .service-title, .service-card-block
 })
 const img = ScrollReveal({
     origin: 'right',
-    distance:'100px',
+    distance:'50px',
     duration:2000,
     reset: true
 })
@@ -19,7 +19,7 @@ img.reveal(` .about-text, .right, .bio-img, .address`,{
 })
 const text = ScrollReveal({
     origin: 'left',
-    distance:'100px',
+    distance:'50px',
     duration:2000,
     reset: true
 })
