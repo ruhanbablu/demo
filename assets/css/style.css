@@ -1184,6 +1184,9 @@ line-height: 25px;
         font-size: 35px;
         line-height: 45px;
     }
+    .video{
+    display: none;
+    }
  }
 
 
