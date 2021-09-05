@@ -14,7 +14,7 @@ const img = ScrollReveal({
     duration:2000,
     reset: true
 })
-img.reveal(` .about-text, .right, .bio-img, .address`,{
+img.reveal(` .about-text, .right, .bio-img`,{
     interval:100
 })
 const text = ScrollReveal({
@@ -23,6 +23,6 @@ const text = ScrollReveal({
     duration:2000,
     reset: true
 })
-text.reveal(`.about-img, .left, .bio-text, .form `,{
+text.reveal(`.about-img, .left, .bio-text `,{
     interval: 200
 })
